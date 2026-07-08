@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Intermediate / large outputs (regenerate with the scripts)
+output/*.tif
+output/*.npy
+
+# Keep the example JPEGs committed as previews:
+#   output/NDVI_*_publication.jpg
+#   output/NDVI_*_colormap.jpg
